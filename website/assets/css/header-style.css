@@ -1,0 +1,25 @@
+.header__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+
+}
+.header__navbar__hamburger {
+    cursor: pointer;
+    display: none;
+    
+    background: none;
+    border: none;
+    border-radius: 0;
+    font-size: 26px;
+    color: #FFF;
+
+}
+
+@media (max-width: 500px) {/*MOBILE SCREEN*/
+    .header__navbar {padding-bottom:0;border-bottom: 2px solid var(--gold__color);}
+    .header__navbar {justify-content: space-around;}
+    .header__navbar__hamburger {display: block;margin: 0 10px;}
+    
+}

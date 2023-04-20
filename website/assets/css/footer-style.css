@@ -1,0 +1,23 @@
+footer {
+    padding: 1vh 20vh;
+}
+
+footer>p,.link__style {
+    text-align: center;
+    line-height: 20px;
+    color: var(--grey-color);
+    font-size: 0.6rem;
+}
+.link__style:hover,.link__style:active {
+    color: var(--white__color);
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px) { /*TABLET SCREEN*/
+    footer {padding: 1vh 10vh;}
+    footer>p,.link__style{font-size: 0.5rem;}
+   
+}
+@media (max-width: 500px) { /*MOBILE SCREEN*/
+    footer {padding: 1vh 5vh;}
+}
